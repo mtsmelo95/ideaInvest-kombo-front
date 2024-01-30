@@ -1,0 +1,251 @@
+.container {
+    padding: 4.5rem 4.25rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+ }
+ 
+ .containerHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+ }
+ 
+ h1 {
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 2px solid #700000;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .containerHead p {
+    max-width: 49.125rem;
+    font-family: "inter";
+    font-size: 1.125rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .containerMarket {
+    margin-top: 10rem;
+    height: 100%;
+ }
+ 
+ .descriptions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.5rem;
+ }
+ 
+ .imagesDaDireita{
+    width: 18rem;
+    height: 17rem;
+    align-self: flex-end;
+ }
+ 
+ .imagesDaEsquerda{
+    width: 18rem;
+    height: 17rem;
+    align-self: flex-start;
+ }
+ 
+ .imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+ }
+ 
+ .line {
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+ }
+ 
+ .description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+    align-items: center;
+    padding-right: 2.5rem;
+ }
+ 
+ .description div {
+    color: #323232;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165.523%;
+    letter-spacing: 1.204px;
+    width: 37.5rem;
+    align-self: flex-end;
+ }
+ 
+ .description p {
+    color: #323232;
+    text-align: justify;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: auto;
+    max-width: 37.5rem;
+ }
+ 
+ .buttom {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ button {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 2.8rem;
+    cursor: pointer;
+    width: 21.43rem;
+    height: 6.18rem;
+    display: inline-flex;
+    padding: 10px 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 3px solid #f4f4f4;
+ 
+    background: #fff;
+ 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease-in-out;
+ }
+ 
+ button:hover {
+    background: #700000;
+    color: #fff;
+ }
+ 
+ @media screen and (max-width: 768px) {
+    .container {
+       padding: 2rem 0 5rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+ 
+    .containerHead {
+       width: 90%;
+       height: 100%;
+       padding: 0;
+       margin-left: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+ 
+    .containerHead h1 {
+       font-size: 1.5rem;
+       margin-bottom: 1.56rem;
+       border-bottom: 2px solid #700000;
+       text-align: center; /* Alinha o texto no centro */
+    }
+ 
+    .containerHead p {
+       font-size: 1.125rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       max-width: 100%;
+    }
+ 
+    .containerMarket {
+       margin-top: 2rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+ 
+    .description div {
+       width: 100%;
+    }
+ 
+    .description p {
+       font-family: "inter";
+       text-align: center;
+       font-size: 0.875rem;
+       max-width: 100%;
+       padding: 2rem;
+    }
+ 
+    .imagesDaDireita{
+       width: 9rem;
+       height: 8rem;
+       align-self: flex-end;
+    }
+    
+    .imagesDaEsquerda{
+       width: 9rem;
+       height: 8rem;
+       align-self: flex-start;
+    }
+    
+    .imageContainer{
+       display: flex;
+       align-items: center;
+       gap: 2rem;
+       height: 14rem;
+    }
+ 
+    .line {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin-top: 5rem;
+       height: 100%;
+    }
+ 
+    .titleDescription{
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+ 
+    .description {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       width: 100%;
+       height: 9.87rem;
+       padding-right: 0;
+       margin-bottom: 8rem;
+    }
+ 
+    button {
+       font-size: 1rem;
+       cursor: pointer;
+       width: 10rem;
+       height: 5rem;
+       padding: 0 0;
+    }
+ 
+    .buttom {
+       display: flex;
+       justify-content: center;
+    }
+ }
+ 

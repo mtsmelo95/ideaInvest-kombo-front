@@ -1,0 +1,81 @@
+.container{
+    background-image: url('../assets/CapaKombo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 29rem;
+    position: relative;
+    width: 100%;
+}
+
+
+.container .button{
+    width: 28.70rem;
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    background-color: #AC4900;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container .button:hover{
+    background-color: white;
+    color: #AC4900;
+}
+
+.coverImg{
+    width: 28.375rem;
+    height: 6.44rem;
+    margin-left: 4rem;
+}
+
+.logoFooter{
+    font-family: 'inter';
+    font-weight: bold;
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20rem;
+    }
+
+    .coverImg{
+        width: 80%;
+        height: 4.5rem;
+        margin-left: 0;
+    }
+
+    .logoFooter{
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .container .button{
+        width: 17rem;
+        height: 3rem;
+        margin-top: 2rem;
+        margin-left: 0;
+        background-color: #AC4900;
+        color: white;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+    }
+    
+    .container .button:hover{
+        background-color: white;
+        color: #AC4900;
+    }
+    
+}

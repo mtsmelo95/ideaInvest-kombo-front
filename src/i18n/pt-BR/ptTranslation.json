@@ -1,0 +1,36 @@
+{
+    "header": {
+        "aboutUs": "Quem Somos",
+        "market": "Mercado",
+        "contact": "Contato"
+    },
+    "cover": {
+        "buttom": "Saiba Mais"
+    },
+    "aboutUs": {
+        "title": "Quem Somos",
+        "description": "A Kombo é uma criadora de personagens e mundos",
+        "card1Title": "Personagens",
+        "card1Description": "A criação de personagens é o centro de nosso negócio. Criamos personagens que conquistam o público e se materializam, simultaneamente, na forma de games, colecionáveis, filmes e séries.",
+        "card2Title": "Mundos",
+        "card2Description": "Nossos personagens habitam mundo coesos, universos próprios criados para que se desenvolvam e se relacionem com o público de maneira longeva."
+    },
+    "market": {
+        "title": "Mercados",
+        "description": "A Kombo atua com a mesma ênfase nos mercados de games, colecionáveis e audiovisual: Quando criamos personagens e seus mundos, pensamos sempre em como apresenta-los ao público em forma de estátuas colecionáveis, de games divertidos e de filmes e séries cativantes.",
+        "card1Title": "Games",
+        "card1Description": "Quando criamos um personagem ou um grupo de personagens, logo o presenteamos com um game onde eles possam habitar e interagir com o público, criando laços e memórias afetivas com seus jogadores. E claro, proporcionando muitas horas de diversão, afinal é pra isso que os games existem.",
+        "card2Title": "Colecionáveis",
+        "card2Description": "Nossos personagens existem no mundo real na forma de estátuas colecionáveis, uma maneira única de o público ter o seu personagem favorito mais próximo e presente. Dedicamos grande cuidado e carinho a essa confecção, respeitando detalhadamente a personalidade e o contexto narrativo de cada personagem para materializá-lo como um colecionável único e original.",
+        "card3Title": "Audiovisual",
+        "card3Description": "Os personagens da Kombo pertencem a mundos especialmente criados para eles. Mostramos ao público como eles vivem através das janelas mágicas do audiovisual, desenvolvendo histórias emocionantes e envolventes por meio de filmes e séries onde podemos vê-los em ação."
+    },
+    "contact": {
+        "button": "Inscreva-se"
+    },
+    "footer": {
+        "aboutUs": "Quem Somos",
+        "organization": "Organização",
+        "structureProduction": "Estrutura de Produção"
+    }
+}

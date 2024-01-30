@@ -1,0 +1,164 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #090a0b;
+    height: 21.5rem;
+ }
+ 
+ .topDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12.75rem;
+    gap: 7rem;
+ }
+ 
+ .line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 1px;
+    background-color: #7bb9fc;
+ }
+ 
+ .topDiv p {
+    color: #d0daf5;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    width: 17.7rem;
+ }
+ 
+ .data {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+ }
+ 
+ .bottonDiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    margin-left: 2.9rem;
+    height: 7.75rem;
+ }
+ 
+ .footerLinks {
+    display: flex;
+    gap: 0.5rem;
+    font-family: "DM Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    list-style: none;
+ }
+ 
+ .bottonDiv nav {
+    display: flex;
+    gap: 1.5rem;
+ }
+ 
+ .bottonDiv{
+    gap: 8rem;
+ }
+ 
+ 
+ .footerLinks li a {
+    color: #d0daf5;
+    text-decoration: none;
+ }
+ 
+ .footerLinks li a:hover {
+    color: #7bb9fc;
+ }
+ 
+ .bottonDiv p {
+    color: #d0daf5;
+    font-family: "Assistant", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ 
+ .icons a{
+    margin-left: 2rem;
+ }
+ 
+ @media screen and (max-width: 768px) {
+    .container {
+       height: 100%;
+       margin-top: 5rem;
+       color: #7bb9fc;
+       padding-top: 2rem;
+    }
+ 
+    .topDiv {
+       flex-direction: column;
+       height: 100%;
+       margin-left: 0;
+       padding: 0;
+       width: 90%;
+    }
+ 
+    .data{
+       display: flex;
+       flex-direction: column;
+    }
+ 
+    .data img{
+       align-self: center;
+       margin-top: 0.765rem;
+    }
+ 
+    .data p{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+    }
+ 
+    .topDiv p {
+       width: 100%;
+       margin-bottom: 1rem;
+    }
+ 
+    .bottonDiv {
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: space-around;
+       height: 100%;
+       margin-left: 0;
+       padding: 0 2rem;
+    }
+ 
+    .bottonDiv nav {
+       display: flex;
+       align-self: center;
+       justify-content: space-between;
+       margin-left: 1rem;
+    }
+ 
+    .bottonDiv p{
+       margin-bottom: 1rem;
+       align-self: center;
+       margin-top: 1rem;
+    }
+ 
+    .icons{
+       display: flex;
+       align-self: center;
+       justify-content: center;
+       gap: 1rem;
+       margin-bottom: 1rem;
+       margin-left: 0;
+    }
+ 
+ }
+ 

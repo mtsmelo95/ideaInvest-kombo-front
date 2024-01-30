@@ -1,0 +1,52 @@
+.container{
+    padding: 0 10.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav{
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+    list-style: none;
+    font-family: 'inter';
+}
+
+.container li a{
+    text-decoration: none;
+    color: #18191F;
+}
+
+.container li a:hover{
+    color: #2F80ED;
+}
+
+.container li button{
+    border: none;
+    border-radius: 0.25rem;
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    box-shadow: none;
+}
+	
+
+.container li button:hover{
+    background: transparent;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 0 2rem;
+    }
+
+    .container img{
+        width: 6rem;
+        height: 3rem;
+    }
+
+    .container nav{
+        font-size: 0.675rem;
+    }
+}

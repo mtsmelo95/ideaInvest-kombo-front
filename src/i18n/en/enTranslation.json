@@ -1,0 +1,36 @@
+{
+    "header": {
+        "aboutUs": "Who we are",
+        "market": "Market",
+        "contact": "Contatct"
+    },
+    "cover": {
+        "buttom": "More"
+    },
+    "aboutUs": {
+        "title": "Who we are",
+        "description": "Kombo is a creator of characters and worlds",
+        "card1Title": "Characters",
+        "card1Description": "Character creation is the core of our business. We create characters that win over the public and materialize, simultaneously, in the form of games, collectibles, films and series.",
+        "card2Title": "worlds",
+        "card2Description": "Our characters inhabit a cohesive world, their own universes created so that they can develop and relate to the public in a long-lasting way."
+    },
+    "market": {
+        "title": "Markets",
+        "description": "Kombo operates with the same emphasis on the games, collectibles and audiovisual markets: When we create characters and their worlds, we always think about how to present them to the public in the form of collectible statues, fun games and captivating films and series.",
+        "card1Title": "Games",
+        "card1Description": "When we create a character or a group of characters, we immediately present them with a game where they can live and interact with the public, creating bonds and affective memories with their players. And of course, providing many hours of fun, after all, that's what games exist for.",
+        "card2Title": "Collectibles",
+        "card2Description": "Our characters exist in the real world in the form of collectible statues, a unique way for audiences to have their favorite character closer and more present. We dedicated great care and affection to this creation, respecting in detail the personality and narrative context of each character to materialize it as a unique and original collectible..",
+        "card3Title": "Audio-visual",
+        "card3Description": "Kombo characters belong to worlds specially created for them. We show the public how they live through the magical audiovisual windows, developing exciting and engaging stories through films and series where we can see them in action."
+    },
+    "contact": {
+        "button": "Subscribe"
+    },
+    "footer": {
+        "aboutUs": "Who we are",
+        "organization": "Organization",
+        "structureProduction": "Production Structure"
+    }
+}
